@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.7
         with:
-          ref: refs/tags/v0.5
+          ref: refs/tags/v0.3
           submodules: recursive
       - name: Install Dependencies
         run: |
